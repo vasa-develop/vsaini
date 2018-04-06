@@ -1,0 +1,168 @@
+
+
+html,
+body {
+    background-color: #fff;
+    font-size: 0.875rem;
+    color: #333;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 300;
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.loaded {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin: -20px 0 0 -20px;
+}
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+a,
+button,
+a span {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+a{
+   font-family: 'Montserrat', sans-serif;
+}
+.btn.extra-width {
+    padding: 13px 40px;
+}
+.btn:focus,
+.btn:active {
+    outline: inherit;
+}
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*    direction: rtl;*/
+}
+p {
+    margin: 0 0 15px;
+
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+}
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+h4,
+h5 {
+    font-weight: 300;
+    margin: 0;
+    line-height: 2rem;
+font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 3.75rem;
+    line-height: 5.5rem;
+
+    letter-spacing: .4rem;
+}
+h2 {
+    font-size:1.875rem;
+    line-height: 3rem;
+    text-transform: uppercase;  
+
+}
+h3 {
+    font-size:1.375rem;
+    line-height: 2.5rem;  
+    
+}
+h4 {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    
+} 
+h5 {
+    font-size: 0.90rem;
+    margin-bottom: 1rem;
+    color:#223d61;
+    
+} 
+h6 {
+    font-size: 1rem;
+    margin-bottom: .9rem;
+}
+p {
+    line-height: 2rem;
+    font-size: 16px;
+}
+p:last-child {
+    margin-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size:18px;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color:#ff7200;
+}
+.navbar-nav{
+	padding:0;
+	float:none;
+	
+}
+.container{
+	width:70%;
+}
+
+.navbar-default{
+	background:transparent;
+	border:0px;
+	border-bottom:1px solid;
+	border-radius:0px;
+}
